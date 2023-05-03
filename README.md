@@ -7,3 +7,7 @@ Mise en place d'un système d'authentification avec numéro de téléphone ou em
   <br/>
   splash screen
 </h1>
+<h1 align="center">
+  <img alt="food_app_icon" src="https://github.com/AdjaroPatoussi/quiz/blob/main/screen/screen.png" width="200px"/><br/>
+ quiz app 
+</h1>
