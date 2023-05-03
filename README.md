@@ -3,11 +3,22 @@
 Mise en place d'un système d'authentification avec numéro de téléphone ou email.
 
  <h1 align="center">
-  <img alt="auth" src="https://github.com/Adjaro/auth-flutter/tree/main/screenshot/screen1.png" />
+  <img alt="auth" src="https://github.com/Adjaro/auth-flutter/blob/main/screenshot/screen1.png" />
   <br/>
-  splash screen
+  <img alt="auth" src="https://github.com/Adjaro/auth-flutter/blob/main/screenshot/screen2.png" />
+  <br/>
+   <img alt="auth" src="https://github.com/Adjaro/auth-flutter/blob/main/screenshot/screen3.png" />
+  <br/>
+   <img alt="auth" src="https://github.com/Adjaro/auth-flutter/blob/main/screenshot/scree4.png" />
+  <br/>
+   <img alt="auth" src="https://github.com/Adjaro/auth-flutter/blob/main/screenshot/screen5.png" />
+  <br/>
+   <img alt="auth" src="https://github.com/Adjaro/auth-flutter/blob/main/screenshot/screen6.png" />
+  <br/>
+   <img alt="auth" src="https://github.com/Adjaro/auth-flutter/blob/main/screenshot/screen7.png" />
+  <br/>
+   <img alt="auth" src="https://github.com/Adjaro/auth-flutter/blob/main/screenshot/screen8.png" />
+  <br/>
+  
 </h1>
-<h1 align="center">
-  <img alt="food_app_icon" src="https://github.com/AdjaroPatoussi/quiz/blob/main/screen/screen.png" width="200px"/><br/>
- quiz app 
-</h1>
+ 
