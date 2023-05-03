@@ -1,4 +1,5 @@
 import 'package:auth/Screens/app/HomeScreen.dart';
+import 'package:auth/controllers/auth_controller.dart';
 import 'package:auth/utils/constants.dart';
 import 'package:flutter/material.dart';
 
@@ -10,6 +11,7 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
+  LoginController loginController = LoginController();
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -56,6 +58,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           child: Column(
                             children: [
                               TextFormField(
+                                controller: loginController.usernameController,
                                 style: TextStyle(
                                   color: Colors.white,
                                 ),
@@ -63,7 +66,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                     enabledBorder: UnderlineInputBorder(
                                         borderSide:
                                             BorderSide(color: Colors.white)),
-                                    labelText: 'Email ou Mot de passe',
+                                    labelText: 'Email ou Numero',
                                     hintText:
                                         "Veuillez préciser l'indicatif du pays pour un  numero",
                                     hintStyle: TextStyle(
@@ -75,6 +78,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                 height: 20,
                               ),
                               TextFormField(
+                                controller: loginController.passwordController,
                                 obscureText: true,
                                 style: TextStyle(
                                   color: Colors.white,
@@ -107,6 +111,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   padding: EdgeInsets.only(top: 20),
                   child: MaterialButton(
                     onPressed: () {
+                      // loginController.loginUser();
                       Navigator.push(
                           context,
                           MaterialPageRoute(
